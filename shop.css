@@ -1,0 +1,130 @@
+/* header */
+header {
+  background-color: rgb(228, 228, 228);
+  padding-bottom: 0.5rem;
+  border-bottom: solid 2px black;
+}
+nav img {
+  mix-blend-mode: darken;
+  height: 6rem;
+  width: 6rem;
+  padding-top: 0.7rem;
+  padding-left: 1rem;
+}
+nav {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+/* body */
+body {
+  margin: 0;
+}
+main form {
+  text-align: center;
+  padding: 5rem 0rem;
+}
+form label {
+  color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 1s;
+}
+.card {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  width: 16rem;
+  height: auto;
+
+  text-align: center;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  font-size: 1.5rem;
+}
+#text {
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+}
+.card a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+.card input {
+  margin-top: 1rem;
+}
+/* footer */
+footer {
+  margin-top: 8rem;
+  background-color: rgb(153, 153, 153);
+  border-top: solid 2px black;
+}
+footer nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  font-size: 1rem;
+}
+footer img {
+  display: inline-block;
+  mix-blend-mode: darken;
+  height: 6rem;
+  padding-top: 0.7rem;
+  padding-left: 1rem;
+}
+.company {
+  text-align: center;
+}
+h4 {
+  margin: 1rem 0rem;
+}
+.downOfFooter {
+  display: flex;
+  justify-content: space-between;
+}
+footer nav {
+  padding-top: 3rem;
+}
+/* media query */
+@media (max-width: 800px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    padding: 0;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .downOfFooter {
+    flex-direction: column;
+  }
+  footer nav {
+    padding-top: 0rem;
+  }
+}

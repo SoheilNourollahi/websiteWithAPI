@@ -1,0 +1,99 @@
+/* header */
+header {
+  background-color: rgb(228, 228, 228);
+  padding-bottom: 0.5rem;
+  border-bottom: solid 2px black;
+}
+nav img {
+  mix-blend-mode: darken;
+  height: 6rem;
+  width: 6rem;
+  padding-top: 0.7rem;
+  padding-left: 1rem;
+}
+nav {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+/* body */
+body {
+  margin: 0;
+  background-image: url(assets/img2.jpg);
+  background-position: top-center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: rgb(22, 22, 22);
+  padding: 15rem 0rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Gloria Hallelujah", cursive;
+}
+/* footer */
+footer {
+  background-color: rgb(153, 153, 153);
+  border-top: solid 2px black;
+}
+footer nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  font-size: 1rem;
+}
+footer img {
+  display: inline-block;
+  mix-blend-mode: darken;
+  height: 6rem;
+  padding-top: 0.7rem;
+  padding-left: 1rem;
+}
+.company {
+  text-align: center;
+}
+h4 {
+  margin: 1rem 0rem;
+}
+.downOfFooter {
+  display: flex;
+  justify-content: space-between;
+}
+footer nav {
+  padding-top: 3rem;
+}
+/* media query */
+@media (max-width: 800px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    padding: 0;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .downOfFooter {
+    flex-direction: column;
+  }
+  footer nav {
+    padding-top: 0rem;
+  }
+}
